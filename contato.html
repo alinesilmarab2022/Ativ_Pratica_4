@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="utf-8">
+    <title>Ricardo Eletro</title>
+
+</head>
+
+<body align="center" link="white" alink="white" vlink="white" bgcolor="black">
+    <font size="4" align="center" face="tahoma" color="white">
+    <a name="topo" >
+
+<table>
+
+    <table >
+        <table width="1080" cellpading="100" bordercolor="darkFireBrick" bgcolor="FireBrick" border="0" align="center" cellspacing="30">
+            <tr>
+                <th align="center" colspan="3">
+                    <img src="img/a.png" alt="Logo da Ricardo Eletro" width="200">
+                </th>
+            </tr>
+        </table>
+        <br/>
+        <table width="1080" cellpading="1" bordercolor="black" bgcolor="ForestGreen" border="0" align="center">
+            <tr>
+                <th  b><font color="white">
+                    <a href="index.html">
+               HOME</a>
+                    </font></th>
+                <th ><font color="white"><a href="contato.html">
+               CONTATO</a>
+                    </font></th>
+                <th ><font color="white"><a href="sobre.html">
+                SOBRE</a>
+                    </font></th>
+                </tr>
+        </table>
+
+    <h1 align="center"><strong><font color="white" face="tahoma"><u>Nossos meios de Contato</u></font></strong></h1>
+    <table width="1080" cellpading="1" bordercolor="black" bgcolor="black" border="0" align="center">
+        <table width="1080" cellspacing="100" cellpading="1" bordercolor="black" bgcolor="" border="0" align="center">
+            <tr>
+                <td align="justify">
+                    Para melhor atendimento com nossa central, informe seus dados abaixo, se necessário informe os produtos que foram comprados e avalie nosso atendimento em nosso medidor de feedback!                
+                </td>
+                <td>
+                    <img src="img/b.png" alt="Telemarketing" width="500">
+                </td>
+            </tr>
+        </table>
+    </table>
+
+<table width="1030" cellpading="1" cellspacing="0"  bordercolor="black" bgcolor="black" border="0" align="center">
+    <tr>
+        <td>
+        <fieldset>
+<legend>Campo para contato direto com nosso telemarketing</legend>
+<form action="enviar.php" method="post" nome="contato">
+    <table width="1030" cellpading="1" bordercolor="black" bgcolor="black" border="0" align="center">
+        <table width="1030" cellspacing="20 " cellpading="0" bordercolor="black" bgcolor="" border="0" align="center">
+            <tr align="left">
+                <td >
+                    Informe seu nome:*
+                    <input type="text" name="nome" id="nome" maxlength="100" placeholder="Nome Completo" size="60" required>
+                </td>
+                <td>
+                    Informe seu e-mail:*
+                    <input type="e-mail" name="email" id="email" maxlength="100" placeholder="E-mail" size="60" required>
+                </td>
+            </tr>
+            <tr align="left">
+                <td>
+                    Informe seu CPF:*
+                    <input type="text" name="cpf" id="cpf" maxlength="14" placeholder="XXX.XXX.XXX-XX" size="60" required>
+                </td>
+                <td>
+                    Informe seu Telefone:*
+                    <input type="text" name="celular" id="celular" maxlength="15" placeholder="(XX)X XXXX-XXXX" size="60" required>
+                </td>
+                <tr align="left">
+                    <td>
+                        Você realizou alguma compra?
+                        <label><input type="radio" name="s" id="s">Sim</label>
+                        <label><input type="radio" name="s" id="n">Não</label>
+                    </td>
+                    <td>
+                        Se sim, qual foi o produto comprado?
+                        <input type="text" name="comprado" id="comprado" maxlength="100" placeholder="Produto da marca X" size="60">
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td>
+                        Informe quando a compra foi realizada:
+                        <input type="date" name="data" id="data" size="60" >
+                    </td>
+                    <td>
+                        Se possível, informe o código de rastreio:
+                        <input type="text" name="cod" id="cod" maxlength="100" placeholder="AA123456785BR" size="60">
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td align="center">
+                        Selecione seu gênero sexual:<br/>
+                        <label><input type="radio" name="genero" id="genero">Masculino</label>
+                        <label><input type="radio" name="genero" id="genero">Feminino</label>
+                        <label><input type="radio" name="genero" id="genero">Outro</label>
+                    </td>
+                    <td align="left">
+                        Assinale se você aceita receber as novidades referentes a nossa loja:<br/>
+                        <label><input type="checkbox" name="aceito" id="aceito">Aceito</label>
+                        <label><input type="checkbox" name="aceito" id="nao">Não Aceito</label>
+                        <label><input type="checkbox" name="aceito" id="apenas1">Apenas sobre meus produtos favoritos</label>
+                        <label><input type="checkbox" name="genero" id="apenas2">Apenas Promoções</label>
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td>
+                        Informe previamente o que ocorreu para a necessidade do contato direto:<br/>
+                        <textarea name="relato" id="relato" cols="60" rows="5" placeholder="Relato..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right">
+                    <input type="submit" id="enviar" name="enviar" value="Enviar">
+                    </th>
+                    <th align="left">
+                        <input type="reset" id="limpar" name="limpar" value="Limpar">
+                    </th>
+                </tr>
+                
+
+
+                <tr align="justify">
+                    <td colspan="2">
+                        <br/> <br/> <br/> <br/> <br/>
+                        <hr size="2">
+                        Outros meios de contato disponíveis, para entrar em contato com nossa central, são as redes sociais, seguem os perfis referentes:
+                    </td>
+                </tr>
+                <tr align="justify">
+                    <td>
+                        <ul type="square">
+                            <li> Telefone: (31) 99582-8461 </li>
+                            <li> E-mail: atendimento@ricardoeletro.com.br </li>
+                            <li> Whatsapp: (31) 99887-5104 </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul type="square">
+                            <li> Instagram: @ricardoeletroficial </li>
+                            <li> Twitter: @ricardoeletro </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </table>
+</form>
+</fieldset>
+
+<table width="1059" cellpading="0" bordercolor="black" bgcolor="black" border="0" align="center">
+    <tr>
+        <td colspan="3">
+            <figure><font size="1" color="silver"><img src="img/a.png" alt="Logo da Ricardo Eletro" width="200"> <figcaption>Av. Abílio Machado, 1868 - Alípio de Melo, Belo Horizonte - MG, 30820-000</figcaption></font></figure>
+
+        </td>
+    </tr>
+</table>
+<br>
+
+<table width="1059" cellpading="1" bordercolor="black" bgcolor="ForestGreen" border="0" align="center">
+    <tr>
+        <th  b><font color="white">
+            <a href="index.html">
+       HOME</a>
+            </font></th>
+        <th ><font color="white"><a href="contato.html">
+       CONTATO</a>
+            </font></th>
+        <th ><font color="white"><a href="sobre.html">
+        SOBRE</a>
+            </font></th>
+        </tr>
+</table>
+</table>
+</td>        
+</tr>
+</font>
+</body>
+</html>
